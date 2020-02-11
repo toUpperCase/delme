@@ -9,7 +9,9 @@ uses
 type
   TForm1 = class(TForm)
     BitBtn1: TBitBtn;
+    BitBtn2: TBitBtn;
     procedure BitBtn1Click(Sender: TObject);
+    procedure BitBtn2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -26,6 +28,11 @@ implementation
 procedure TForm1.BitBtn1Click(Sender: TObject);
 begin
    ShowMessage('test');
+end;
+
+procedure TForm1.BitBtn2Click(Sender: TObject);
+begin
+   ShowMessage('Hello!!!');
 end;
 
 end.
